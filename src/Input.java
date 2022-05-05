@@ -10,8 +10,7 @@ import java.util.concurrent.*;
 
 
 public class Input {
-
-
+    
     public static JTextField textField1;
 
     public static void main(String[] args) {
@@ -98,11 +97,6 @@ public class Input {
                 }
             });
         }
-
-    private void createUIComponents() {
-        textField1.setText("");
-    }
-
     public record ScanResult(int port, boolean isOpen) {
 
     }
